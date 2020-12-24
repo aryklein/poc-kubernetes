@@ -1,0 +1,9 @@
+cluster_name                = "kubernetes-nyc1-1"
+region                      = "nyc1"
+nodes_type                  = "s-1vcpu-2gb"
+default_node_pool_name      = "default-node-pool"
+kubernetes_version          = "1.19"
+cluster_tags                = ["kubernetes-nyc1-1"]
+default_node_pool_tags      = ["default-node-pool", "default"]
+default_node_pool_min_nodes = 1
+default_node_pool_max_nodes = 3
