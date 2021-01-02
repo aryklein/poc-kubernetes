@@ -1,2 +1,5 @@
-# poc-kubernetes-do
-Proof-of-concepts Kubernetes cluster on Digitalocean
+# poc-kubernetes
+
+Kubernetes proof-of-concepts
+
+`./kubernetes-do`: Kubernetes cluster on Digitalocean deployed with Terraform.
