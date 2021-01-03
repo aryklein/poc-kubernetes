@@ -13,7 +13,7 @@ unzip terraform_${TF_VER}.zip
 
 ## How to create a cluster
 
-You need to create a **DigitalOcean Personal Access Token** and pass it through an environment variable
+Create a **DigitalOcean Personal Access Token** and pass it through an environment variable
 `TF_VAR_do_token`.
 
 ```bash
