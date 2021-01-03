@@ -1,6 +1,9 @@
 # Kubernetes on Digitalocean
 
-This cluster is created with `Terraform 0.14.3`.
+Kubernetes cluster on Digitalocean deployed with `Terraform 0.14.3`. The luster autoscaler is
+enabled in the default node pool. Parameters are defined in `terraform.tfvars`.
+
+## Dowload Terraform
 
 ```bash
 TF_VER=0.14.3
@@ -20,4 +23,3 @@ terraform plan
 terraform apply
 ```
 
-The project variables are defined in `terraform.tfvars`.
